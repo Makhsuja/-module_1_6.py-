@@ -1,11 +1,11 @@
-#Работа со словарями
 my_dict = {'Anton': 2000, 'Sergey': 2002}
 print(my_dict)
 print(my_dict.get('Anton'), my_dict.get("Polina"))
 my_dict.update({'Roma': 2006,
                 'Grisha': 1998})
-del my_dict['Anton']
+my_dict.pop('Anton')
 print(my_dict)
+
 
 #Работа с множествами
 my_set = {1,2,3,4,1,4,2,'Katya',2.6, 'Katya'}
