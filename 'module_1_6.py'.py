@@ -3,8 +3,9 @@ print(my_dict)
 print(my_dict.get('Anton'), my_dict.get("Polina"))
 my_dict.update({'Roma': 2006,
                 'Grisha': 1998})
-my_dict.pop('Anton')
+a = my_dict.pop('Anton')
 print(my_dict)
+print(a)
 
 
 #Работа с множествами
